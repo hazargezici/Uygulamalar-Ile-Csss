@@ -1,0 +1,38 @@
+#container{
+    width: 1140px;
+    background-color: rgb(201, 192, 192);
+}
+#blog-post-container{
+    width: 75%;
+    float: left;
+    
+    
+}
+
+.others-post{
+    width: 25%;
+    float: left;   
+}
+#fixed{
+    position: fixed;
+}
+.tags{
+    margin: 0;
+    padding: 0;
+}
+.tags li{
+    
+    display: inline-block;
+   margin-right: 15px;
+}
+.tags li a{
+    text-decoration: none;
+}
+.date{
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+.blog-post{
+    position: relative;
+}

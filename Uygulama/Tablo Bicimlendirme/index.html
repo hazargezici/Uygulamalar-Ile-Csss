@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tablo Bicimlendirme</title>
+    <style>
+        table {
+            width: 100%;
+            /* tablo hücreleri arasındaki boşlukları siler*/
+            border-collapse: collapse;
+
+        }
+        .green{
+            background-color: green;
+            color: white;
+        }
+        table th{
+            text-align: left;
+        }
+
+        table td,
+        table th {
+            border: 1px solid #ddd;
+            padding: 6px;
+        }
+
+        .blue {
+            background-color: rgb(147, 147, 241);
+            color: white;
+        }
+
+       table tr:nth-child(even) {
+            background-color: rgba(190, 190, 190, 0.534);
+        }
+
+        tbody tr:hover {
+            background-color: rgb(134, 134, 134);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead class="blue">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Product 1</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Product 3</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Product 4</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Product 5</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$70</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <table>
+        <thead class="green">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Product 1</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$30</td>
+            </tr>
+            <tr>
+                <td>Product 2</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Product 3</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$50</td>
+            </tr>
+            <tr>
+                <td>Product 4</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Product 5</td>
+                <td>Lorem ipsum dolor sit amet.</td>
+                <td>$70</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
